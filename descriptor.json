@@ -7,16 +7,23 @@
   "homepage": "https://github.com/mcommiss-tibco/flogo-simple-log",
   "ref": "github.com/mcommiss-tibco/flogo-simple-log",
   "author": "Marco Commissaris <marco.commissairs@marco.commissaris@cloud.com>",
-  "settings": [
-  ],
-  "inputs":[
+  "settings": [],
+  "inputs": [
     {
       "name": "logtext",
       "type": "string",
-      "description" : "Text to log",
+      "description": "Text to log",
       "required": true
     }
   ],
   "outputs": [
-  ]
-}
+    {
+      "name": "result",
+      "type": "string",
+      "display": {
+        "name": "result",
+        "description": "Result of the activity."
+      }
+    }
+    ]
+  }
