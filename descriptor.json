@@ -6,7 +6,7 @@
   "description": "Simple Log Activity",
   "homepage": "https://github.com/mcommiss-tibco/tree/master/flogo-components/activity/simple-log",
   "ref": "github.com/mcommiss-tibco/flogo-components/activity/simple-log",
-  "author": "Mark Mussett <marco.commissairs@marco.commissaris@cloud.com>",
+  "author": "Marco Commissaris <marco.commissairs@marco.commissaris@cloud.com>",
   "settings": [
   ],
   "inputs":[
