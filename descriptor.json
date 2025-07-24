@@ -1,0 +1,22 @@
+{
+  "name": "simple-log",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "Simple Log Activity",
+  "description": "Simple Log Activity",
+  "homepage": "https://github.com/mcommiss-tibco/tree/master/flogo-components/activity/simple-log",
+  "ref": "github.com/mcommiss-tibco/flogo-components/activity/simple-log",
+  "author": "Mark Mussett <marco.commissairs@marco.commissaris@cloud.com>",
+  "settings": [
+  ],
+  "inputs":[
+    {
+      "name": "logtext",
+      "type": "string",
+      "description" : "Text to log",
+      "required": true
+    }
+  ],
+  "outputs": [
+  ]
+}
