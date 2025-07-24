@@ -22,18 +22,15 @@ func (r *Input) ToMap() map[string]interface{} {
 	}
 }
 
-type Output struct {
-	AnOutput string `md:"anOutput"`
-}
+// Output is an empty struct since this activity has no outputs.
+type Output struct{}
 
-func (o *Output) FromMap(values map[string]interface{}) error {
-	strVal, _ := coerce.ToString(values["anOutput"])
-	o.AnOutput = strVal
+// ToMap is required by the data.StructValue interface.
+func (o *Output) ToMap() map[string]interface{} {
 	return nil
 }
 
-func (o *Output) ToMap() map[string]interface{} {
-	return map[string]interface{}{
-		"anOutput": o.AnOutput,
-	}
+// FromMap is required by the data.StructValue interface.
+func (o *Output) FromMap(values map[string]interface{}) error {
+	return nil
 }
