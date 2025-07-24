@@ -1,4 +1,4 @@
-module help
+module github.com/mcommiss-tibco/flogo-simple-log
 
 go 1.23.3
 
